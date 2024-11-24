@@ -11,6 +11,7 @@
 - **Sequelize** : ORM pour gérer la base de données PostgreSQL.
 - **PostgreSQL** : Base de données relationnelle utilisée pour stocker les informations des joueurs.
 - **EJS** : Moteur de rendu utilisé pour générer des vues HTML dynamiques (utilisé pour l'interface si nécessaire).
+- **Neon** : Service de base de données PostgreSQL cloud, utilisé pour avoir une base de données non locale.
 - **Vercel** : Service de déploiement pour héberger l'API.
 
 ---
@@ -28,6 +29,12 @@
 - **GET /api/players** : Récupère tous les joueurs de l'équipe Juventus.
     - **Réponse** : Liste des joueurs (nom, position, numéro de maillot).
   
+---
+
+## **Base de données**
+
+La base de données PostgreSQL utilisée dans ce projet est hébergée sur **Neon**, une solution de base de données cloud.
+
 ---
 
 ## **Déploiement**
