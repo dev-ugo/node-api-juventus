@@ -59,6 +59,7 @@ const Player = sequelize.define(
      * @type {string}
      */
     tableName: "players",
+    timestamps: false,
   }
 );
 
